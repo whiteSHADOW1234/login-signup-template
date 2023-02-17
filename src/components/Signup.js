@@ -6,6 +6,17 @@ function Signup() {
   // const [passwordConfirm, setPasswordConfirm] = useState("");
   const [email, setEmail] = useState("");
 
+  // const [formData, setFormData] = useState(
+  //   {
+  //     username: "",
+  //     password: "",
+  //     // passwordConfirm: "",
+  //     email: ""
+  //   }
+  // );
+
+
+
   const handleUsernameChange = (event) => {
     setUsername(event.target.value);
   };
