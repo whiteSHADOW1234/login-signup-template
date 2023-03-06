@@ -38,15 +38,27 @@ These instructions will get you a copy of the project up and running on your loc
 You might have Node.js and a code editor (VScode recommended) installed.
 
 
+
 ### Setting up
-### `git clone ...`
+
+#### 1. `git clone ...`
 This will help you to get a copy of the code.
 
-### `npm i`
+#### 2. Delete these lines in `package.json`
+![](https://i.imgur.com/RPHHf2w.png)
+
+
+
+#### 3. Delete `node_modules` and `package-lock.json`
+To ensure that `gh-pages` package won't make all the stuff become weird.
+
+
+
+#### 4. `npm i`
 Get all the related node modules in your local directory.
 
 
-### `npm start`
+#### 5. `npm start`
 
 Runs the app in the development mode.
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
